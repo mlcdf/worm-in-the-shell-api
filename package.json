@@ -14,5 +14,10 @@
   },
   "devDependencies": {
     "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
   }
 }
