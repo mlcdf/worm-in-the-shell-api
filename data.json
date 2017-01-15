@@ -1,0 +1,14 @@
+{
+	"sections": {
+		"yolo": {
+			"text": "You only live once!",
+			"inputs": [{
+				"value": "test1",
+				"label": "test1-label"
+			}, {
+				"value": "test2",
+				"label": "test2-label"
+			}]
+		}
+	}
+}
