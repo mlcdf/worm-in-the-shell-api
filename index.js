@@ -11,5 +11,6 @@ fs.readFile('data.json', 'utf8', (err, jsonString) => {
 
 module.exports = async function (req, res) {
   const query = qs.parse(url.parse(req.url).query)
+  res.setHeader('Access-Control-Allow-Origin', '*')
   send(res, 200, data.sections[query.section])
 }
