@@ -1,10 +1,13 @@
 {
 	"sections": {
 		"yolo": {
-			"text": "You only live once!",
+			"paragraphs": [
+        "You only live once!",
+        "Or that's what you think!"
+        ],
 			"inputs": [{
-				"value": "test1",
-				"label": "test1-label"
+				"value": "yolo",
+				"label": "yolo again"
 			}, {
 				"value": "test2",
 				"label": "test2-label"
