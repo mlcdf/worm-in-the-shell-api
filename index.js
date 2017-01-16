@@ -6,6 +6,9 @@ const {send} = require('micro')
 // Load data
 let data
 fs.readFile('data.json', 'utf8', (err, jsonString) => {
+  if (err) {
+    console.error(err)
+  }
   data = JSON.parse(jsonString)
 })
 
