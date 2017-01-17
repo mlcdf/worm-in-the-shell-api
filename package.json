@@ -1,14 +1,10 @@
 {
-  "name": "sword-sorcery-api",
-  "version": "0.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "micro",
     "test": "xo"
   },
-  "author": "Maxime Le Conte des Floris",
-  "license": "MIT",
   "dependencies": {
     "micro": "^6.1.0"
   },
