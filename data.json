@@ -1,5 +1,19 @@
 {
 	"sections": {
+    "start": {
+      "paragraphs": [
+        "HELLO HUMAN.",
+        "I'M YET ANOTHER SECURITY SOFTWARE. YOU CAN CALL ME YASS.",
+        "YOUR MACHINE HAS BEEN INFECTED BY A WORM."
+        ],
+      "inputs": [{
+        "value": "yolo",
+        "label": "yolo again"
+      }, {
+        "value": "end",
+        "label": "sudo rm -fr /"
+      }]
+    },
 		"yolo": {
 			"paragraphs": [
         "You only live once!",
