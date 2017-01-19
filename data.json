@@ -1,29 +1,29 @@
 {
 	"sections": {
     "start": {
-      "paragraphs": [
+      "texts": [
         "HELLO HUMAN.",
         "I'M YET ANOTHER SECURITY SOFTWARE. YOU CAN CALL ME YASS.",
         "YOUR MACHINE HAS BEEN INFECTED BY A WORM."
         ],
-      "inputs": [{
-        "value": "yolo",
+      "actions": [{
+        "id": "yolo",
         "label": "yolo again"
       }, {
-        "value": "end",
+        "id": "end",
         "label": "sudo rm -fr /"
       }]
     },
 		"yolo": {
-			"paragraphs": [
+			"texts": [
         "You only live once!",
         "Or that's what you think!"
         ],
-			"inputs": [{
-				"value": "yolo",
+			"actions": [{
+				"id": "yolo",
 				"label": "yolo again"
 			}, {
-				"value": "test2",
+				"id": "test2",
 				"label": "test2-label"
 			}]
 		}
