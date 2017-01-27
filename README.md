@@ -9,7 +9,7 @@ Requires Node.js >= 7.
 
 Clone the repository on your machine
 ```console
-$ git clone https://github.com/mlcdf/worm-in-the-shell-api cd worm-in-the-shell-api
+$ git clone https://github.com/mlcdf/worm-in-the-shell-api && cd worm-in-the-shell-api
 ```
 
 Install the dependencies
