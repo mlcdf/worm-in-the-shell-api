@@ -2,9 +2,9 @@
 	"sections": {
     "start": {
       "texts": [
-        "HELLO HUMAN.",
-        "I'M YET ANOTHER SECURITY SOFTWARE. YOU CAN CALL ME YASS.",
-        "YOUR MACHINE HAS BEEN INFECTED BY A WORM."
+        "Hello human.",
+        "I'm Yet Another Security Software. You can call me YASS.",
+        "Your machine has been infected by a worm."
         ],
       "actions": [{
         "id": "yolo",
@@ -25,7 +25,18 @@
 			}, {
 				"id": "test2",
 				"label": "test2-label"
-			}]
+			}],
+      "wormProgress": true
+		},
+    "game-over": {
+			"texts": [
+        "Game's over. You've lost."
+        ],
+			"actions": [{
+				"id": "restart",
+				"label": "restart the game"
+			}],
+      "wormProgress": true
 		}
 	}
 }
