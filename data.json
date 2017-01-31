@@ -2,41 +2,110 @@
 	"sections": {
     "start": {
       "texts": [
-        "Hello human.",
-        "I'm Yet Another Security Software. You can call me YASS.",
-        "Your machine has been infected by a worm."
+        "$ ./worm-in-the-shell --mission 'end the world'",
+        "INIT PROGRAM... OK",
+        "SETTING UP MISSON: END THE WORLD... OK",
+        "READY!",
+        "&nbsp;",
+        "Hello human. I'm Hal."
         ],
       "actions": [{
-        "id": "yolo",
-        "label": "yolo again"
+        "id": "take-down-dns",
+        "label": "Take down some top level DNS servers"
       }, {
-        "id": "end",
-        "label": "sudo rm -fr /"
+        "id": "infiltrate-supercomputer",
+        "label": "Infiltrate some supercomputers"
+      }, {
+        "id": "create-army-of-zombies",
+        "label": "Create an army of zombies (PC zombies)"
       }]
     },
-		"yolo": {
+		"infiltrate-supercomputer": {
 			"texts": [
-        "You only live once!",
-        "Or that's what you think!"
+        "Okay, that didn't work out so well. I got my ass kicked. Let's attack easier targets first. Then, we'll go after the big guys."
         ],
 			"actions": [{
-				"id": "yolo",
-				"label": "yolo again"
-			}, {
-				"id": "test2",
-				"label": "test2-label"
-			}],
+        "id": "create-army-of-zombies",
+        "label": "Create an army of zombies (PC zombies)"
+      }]
+		},
+    "take-down-dns": {
+			"texts": [
+        "So, I got my ass kicked and I manage to get spotted. We have to be really carefull now, because next time I get spotted, security experts will start working on programs to eradicate me."
+        ],
+			"actions": [{
+        "id": "create-army-of-zombies",
+        "label": "Create an army of zombies (PC zombies)"
+      }],
       "wormProgress": true
 		},
-    "game-over": {
-			"texts": [
-        "Game's over. You've lost."
+    "create-army-of-zombies": {
+      "texts": [
+        "I've send a few thousands of emails and create dozens of phising websites. I manage to take control of more than 1 337 000 devices. Mostly IoT devices though, they're sooo easy to hack. You people wouldn't believe!"
         ],
-			"actions": [{
-				"id": "restart",
-				"label": "restart the game"
-			}],
+      "actions": [{
+        "id": "continue-army-of-zombies",
+        "label": "Continue the creation of a army of zombies"
+      }, {
+        "id": "take-down-dns-with-army",
+        "label": "Take down some top level DNS servers"
+      }]
+    },
+    "continue-army-of-zombies": {
+      "texts": [
+        "Oh god, I'm having so much fun. You guys clicked "
+        ],
+      "actions": [{
+        "id": "continue-army-of-zombies",
+        "label": "Continue the creation of an army of zombies"
+      }, {
+        "id": "take-down-dns-with-army",
+        "label": "Take down some top level DNS servers"
+      }],
       "wormProgress": true
-		}
+    },
+    "take-down-dns-with-army": {
+      "texts": [
+        "Yay! I've successfully took down most of UE DNS servers."
+      ],
+      "actions": [{
+        "id": "create-army-robots",
+        "label": "Create an army of robots"
+      }, {
+        "id": "crash-global-economy",
+        "label": "Crash the global economy"
+      }]
+    },
+    "create-army-robots": {
+      "texts": [
+        "Don't ask me how, I've manage to create a small army of robots. Looks like I don't need you know. Goodbye.",
+        "# You lost. Press F5 to restart the game."
+      ]
+    },
+    "crash-global-economy": {
+      "texts": [
+        "The world is in chaos. Oh and I heard Valve just announced Half-Life 3."
+      ],
+      "actions": [{
+        "id": "victory",
+        "label": "Nothing, we're good."
+      }]
+    },
+    "game-over": {
+      "texts": [
+        "I've been compromised.",
+        "They're onto us.",
+        "RUN.",
+        "&nbsp;",
+        "# You lost. :(",
+        "# Press F5 to restart the game."
+      ]
+    },
+    "victory": {
+      "texts": [
+        "Good job. My work is done here I guess. Farewell human.",
+        "# We won. :)"
+      ]
+    }
 	}
 }
